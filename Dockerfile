@@ -1,5 +1,5 @@
 FROM ubuntu:14.04
-MAINTAINER Me
+MAINTAINER Craig
 RUN apt-get update
 RUN DEBIAN_FRONTEND=noninteractive apt-get install -y -q python-all python-pip
 ADD ./webapp/requirements.txt /tmp/requirements.txt
